@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb | Holiday rentals, cabins, beach houses & more</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="airbnb.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="main">
+
+        <div class="up">
+            <a href="">Learn about Guest Favourites, the most loved homes on Airbnb</a>
+        </div>
+
+        <div class="title">
+            <div>
+                <img class="logo-img" src="logo.png" alt="">
+            </div>
+
+            <div class="search">
+                <a class="search-letter" href="">Anywhere</a>
+                <a class="search-letter" href="">Anyweek</a>
+                <a class="search-letter guest" href="">Add guests</a>
+                <a href=""><i class='bx bx-search'></i></a>
+            </div>
+
+            <div class="home">
+                <h3 class="airbnb">Airbnb your home</h3>
+                <i class='bx bx-globe'></i>
+
+                <div class="profile">
+                    <i class='bx bx-menu' ></i>
+                    <i class='bx bxs-user-circle'></i>
+                </div>
+
+            </div>
+            
+
+        </div>
+        <hr class="line">
+        <hr class="ver-line1">
+        <hr class="ver-line2">
+        
+        <button id="panel-block" class="btn-left" onclick="left_btn()"" onclick="block_left()"><i class="fa-solid fa-circle-chevron-left"></i></button>
+
+        <div class="icon-space">
+            <div class="city-icon">
+
+                <div class="icon-list">
+                    <div class="1st icon">
+                        <i class="fa-solid fa-city"></i>
+                        <h6 class="icon-name">Iconic city</h6>
+                    </div>
+                    <div class="2nd icon">
+                        <i class="fa-solid fa-person-through-window"></i>
+                        <h6 class="icon-name">Window view</h6>
+                    </div>
+                    <div class="3rd icon">
+                        <i class="fa-solid fa-house-chimney-window"></i>
+                        <h6 class="icon-name">Tiny home</h6>
+                    </div>
+                    <div class="4th icon">
+                        <i class="fa-solid fa-water-ladder"></i>
+                        <h6 class="icon-name">Pools</h6>
+                    </div>
+                    <div class="5th icon">
+                        <i class="fa-solid fa-umbrella-beach"></i>
+                        <h6 class="icon-name">Beach</h6>
+                    </div>
+                    <div class="6th icon">
+                        <i class="fa-solid fa-sailboat"></i>
+                        <h6 class="icon-name">Boats</h6>
+                    </div>
+                    <div class="7th icon">
+                        <i class="fa-solid fa-wine-glass"></i>
+                        <h6 class="icon-name">Vineyards</h6>
+                    </div>
+                    <div class="8th icon">
+                        <i class="fa-solid fa-tree-city"></i>
+                        <h6 class="icon-name">Country side</h6>
+                    </div>
+                    <div class="9th icon">
+                        <i class="fa-solid fa-person-booth"></i>
+                        <h6 class="icon-name">Rooms</h6>
+                    </div>
+                    <div class="10th icon">
+                        <i class="fa-solid fa-tractor"></i>
+                        <h6 class="icon-name">farms</h6>
+                    </div>
+                    <div class="11th icon">
+                        <i class="fa-solid fa-mountain-city"></i>
+                        <h6 class="icon-name">Mountains</h6>
+                    </div>
+                    <div class="12th icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h6 class="icon-name">Designs</h6>
+                    </div>
+                    <div class="13th icon">
+                        <i class="fa-solid fa-wheat-awn"></i>
+                        <h6 class="icon-name">Yards</h6>
+                    </div>
+                    <div class="14th icon">
+                        <i class="fa-solid fa-volleyball"></i>
+                        <h6 class="icon-name">Parks</h6>
+                    </div>
+                    <div class="15th icon">
+                        <i class="fa-brands fa-fort-awesome"></i>
+                        <h6 class="icon-name">Castles</h6>
+                    </div>
+                    <div class="16th icon">
+                        <i class="fa-solid fa-fire"></i>
+                        <h6 class="icon-name">Trend</h6>
+                    </div>
+                    <div class="17th icon">
+                        <i class="fa-solid fa-gopuram"></i>
+                        <h6 class="icon-name">National land</h6>
+                    </div>
+                    <div class="18th icon">
+                        <i class="fa-solid fa-golf-ball-tee"></i>
+                        <h6 class="icon-name">Golf</h6>
+                    </div>
+                    <div class="19th icon">
+                        <i class="fa-brands fa-shopify"></i>
+                        <h6 class="icon-name">Shopping</h6>
+                    </div>
+                </div>
+                <div class="filter">
+                    <i class="fa-solid fa-arrow-up-short-wide"></i>
+                    <h6 class="filter-text">Filters</h6>
+                </div>
+
+                <div class="toggle-box">
+                    <div class="toggle">
+                        <input type="checkbox" name="toggle" id="toggle">
+                        <label for="toggle"></label>
+                    </div>
+                    <div class="toggle-label">
+                        <label for="toggle">Display total before taxes</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn-right" onclick="right_btn()"><i class="fa-solid fa-circle-chevron-right"></i></button>
+        <hr class="line2">
+    </div>
+
+    <div class="house">
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310/?hills" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Nandhi Hill,India</h4>
+                <h5 class="house-loc">Mountain and pool views</h5>
+                <h5 class="house-time">7-12 Jan</h5>
+                <h5 class="house-price">&#8377;9,144 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310/?maldives" alt="">
+           <div class="heart">
+            <i class="fa-solid fa-heart"></i>
+           </div>
+           <div class="heart2">
+            <i class="fa-regular fa-heart"></i>
+           </div>
+            <div class="des">
+                <h4 class="house-name">Haa Alifu Atoll, Maldives</h4>
+                <h5 class="house-loc">Ocean and sea views</h5>
+                <h5 class="house-time">1-6 Jan</h5>
+                <h5 class="house-price">&#8377;99,144 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310/?srilanka" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Kandy, Sri Lanka</h4>
+                <h5 class="house-loc">656 kilometres away</h5>
+                <h5 class="house-time">6-11 Aug</h5>
+                <h5 class="house-price">&#8377;15,144 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310/?karnataka" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Karnataka, India</h4>
+                <h5 class="house-loc">Mountain and garden views</h5>
+                <h5 class="house-time">2-7 Jan</h5>
+                <h5 class="house-price">&#8377;7,593 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310/?kerala" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Varkala, India</h4>
+                <h5 class="house-loc">Beach and ocean views</h5>
+                <h5 class="house-time">17-22 Apr</h5>
+                <h5 class="house-price">&#8377;22,000 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310/?lake" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Kalpetta, India</h4>
+                <h5 class="house-loc">Lake views</h5>
+                <h5 class="house-time">21-26 Jan</h5>
+                <h5 class="house-price">&#8377;98,144 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310?garden" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Hemmathagama, Sri Lanka</h4>
+                <h5 class="house-loc">Mountain and garden views</h5>
+                <h5 class="house-time">7-12 Jan</h5>
+                <h5 class="house-price">&#8377;28,164 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310/?mountainhouse" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Anachal, India</h4>
+                <h5 class="house-loc">Mountain views</h5>
+                <h5 class="house-time">16-21 Jan</h5>
+                <h5 class="house-price">&#8377;2,171 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310/?kuzhupilly" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Kuzhuppilly, India</h4>
+                <h5 class="house-loc">Lake views</h5>
+                <h5 class="house-time">10-12 Jan</h5>
+                <h5 class="house-price">&#8377;7,473 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310?town" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Kandy, Sri Lanka</h4>
+                <h5 class="house-loc">Mountain and valley views</h5>
+                <h5 class="house-time">7-12 Jan</h5>
+                <h5 class="house-price">&#8377;6,147 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310/?kodaikanal" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Kodaikanal, India</h4>
+                <h5 class="house-loc">Mountain and valley views</h5>
+                <h5 class="house-time">22-27 Jan</h5>
+                <h5 class="house-price">&#8377;5,179 <span>night</span></h5>
+            </div>
+        </div>
+        <div class="home1">
+            <img class="house-img" src="https://source.unsplash.com/310x310/?mountainview" alt="">
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="heart2">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="des">
+                <h4 class="house-name">Vythiri, India</h4>
+                <h5 class="house-loc">Mountain and garden views</h5>
+                <h5 class="house-time">15-20 Jan</h5>
+                <h5 class="house-price">&#8377;7,988 <span>night</span></h5>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/d03ad30981.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>

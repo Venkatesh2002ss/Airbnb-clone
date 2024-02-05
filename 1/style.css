@@ -1,0 +1,405 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 1495px;
+}
+
+.up {
+    background-color: #f1f1f1;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.title {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.line {
+    position: relative;
+    width: 1534px;
+    margin-left: -10px;
+    margin-top: -2px;
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, .2);
+}
+
+.search {
+    border: 1px solid lightgray;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 6px;
+    width: 330px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bx-search {
+    border-radius: 100px;
+    padding: 8px;
+    background-color: #ff385c;
+    color: white;
+    font-size: 20px;
+}
+
+.search-letter {
+    font-size: 16px;
+    margin-top: -2px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.guest {
+    color: gray;
+}
+
+.ver-line1 {
+    width: 30px;
+    margin-left: 647px;
+    margin-top: -48px;
+    transform: rotate(90deg);
+    border-color: lightgray;
+    border: 1px solid lightgray;
+}
+
+.ver-line2 {
+    width: 30px;
+    margin-left: 736px;
+    margin-top: -9px;
+    transform: rotate(90deg);
+    border-color: lightgray;
+    border: 1px solid lightgray;
+}
+
+.airbnb {
+    position: absolute;
+    width: 200px;
+    right: 170px;
+    top: 74px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.profile {
+    border: 1px solid rgba(128, 128, 128, .5);
+    border-radius: 100px;
+    width: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    display: flex;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.bx-menu {
+    font-size: 23px;
+}
+
+.bxs-user-circle {
+    font-size: 40px;
+    color: grey;
+}
+
+.bx-globe {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.city-icon {
+    display: flex;
+    margin-top: 60px;
+    width: 90%;
+    margin: 50px auto;
+    margin-left: 90px;
+    margin-right: 0px;
+}
+
+
+.city-icon::before {
+    position: absolute;
+    content: "";
+    left: 90px;
+    top: 150px;
+    z-index: 99;
+    height: 80px;
+    width: 60px;
+    background-image: linear-gradient(90deg, white, transparent);
+}
+.city-icon::after {
+    position: absolute;
+    content: "";
+    right: 540px;
+    top: 150px;
+    z-index: 99;
+    height: 80px;
+    width: 60px;
+    background-image: linear-gradient(-90deg, white, transparent);
+}
+
+.city-icon::before {
+    display: none;
+}
+
+.icon-list::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.icon-list {
+    display: flex;
+    gap: 20px;
+    width: 66%;
+    overflow: auto;
+    justify-content: left;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.icon {
+    min-width: 80px;
+    font-size: 24px;
+    text-align: center;
+    width: 300px;
+    color: gray;
+    cursor: pointer;
+}
+
+.icon-name {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: black;
+}
+
+.btn-left{
+    border: none;
+    position: absolute;
+    top: 175px;
+    left: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    color: gray;
+    background-color: white;
+}
+
+.btn-left:hover {
+    font-size: 25px;
+    left: 59px;
+    top: 174px;
+}
+
+.btn-right {
+    border: none;
+    position: absolute;
+    top: 175px;
+    right: 500px;
+    font-size: 24px;
+    background: none;
+    cursor: pointer;
+    color: gray;
+}
+
+.btn-right:hover {
+    font-size: 25px;
+    right: 499px;
+    top: 176px;
+}
+
+#panel-block {
+    display: none;
+}
+
+.icon-space {
+    display: flex;
+}
+
+.filter {
+    display: flex;
+    margin-top: 4px;
+    border: 1px solid lightgray;
+    height: 40px;
+    width: 80px;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 14px;
+    padding-top: 2px;
+    position: absolute;
+    right: 360px;
+}
+
+.filter-text {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fa-arrow-up-short-wide {
+    font-size: 16px;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+.toggle{
+    
+    cursor: pointer;
+    width: 40px;
+    height: 23px;
+    background: gray;
+    display: block;
+    border-radius: 100px;
+    position: absolute;
+    right: 20px;
+    margin-top: 4px;
+}
+
+label:after {
+    content: "";
+    position: absolute;
+    top: 1.5px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.toggle input:checked + label {
+    background-color: #5cabee;
+}
+
+.toggle input:checked + label:after {
+    left: calc( 60% - 5px);
+    transform: translateX(-10%);
+}
+
+.toggle-box {
+    position: absolute;
+    border: 1px   solid lightgray;
+    border-radius: 14px;
+    padding: 10px 20px;
+    align-items: center;
+    width: 210px;
+    height: 28px;
+    align-items: center;
+    top: 166px;
+    right:95px;
+}
+
+.toggle-label {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.line2 {
+    margin-top: -60px;
+    width: 1530px;
+    margin-left: -5px;
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, .2);
+}
+
+.house {
+    width: 90%;
+    gap: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px  auto;
+    border-radius: 14px;
+    position: relative;
+}
+
+.house-img {
+    border-radius: 14px;
+    position: relative;
+    cursor: pointer;
+}
+
+.house-name {
+    margin-top: 0px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.house-loc {
+    margin-top: -15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+}
+
+.house-time {
+    margin-top: -20px;
+    font-weight: 400;
+    color: gray;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.house-price {
+    margin-top: -15px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+span {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.heart {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 263px;
+    font-size: 23px;
+    color: gray;
+    cursor: pointer;
+}
+
+.heart2 {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 263px;
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+}
